@@ -7,6 +7,8 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import LifeCycleA from './components/LifeCycleA'
+import LifeCycleB from './components/LifeCycleB'
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
       <Counter/>
       <FunctionClick/>
       <ClassClick/>
+      <LifeCycleA/>
+      <LifeCycleB/>
+      
+      
     </div>
   );
 }
