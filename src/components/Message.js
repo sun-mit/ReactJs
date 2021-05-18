@@ -9,9 +9,15 @@ class Message extends Component{
     }
 }
 
-    changeMsg(){
+    // changeMsg(){
+    //     this.setState({
+    //         msg:'Thank you for visiting us.'
+    //     })
+    // }
+
+    changeMsg = () => {
         this.setState({
-            msg:'Thank you for visiting us.'
+            msg: 'Thank you for visiting us'
         })
     }
 
