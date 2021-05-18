@@ -19,6 +19,7 @@ class Message extends Component{
         return(
             <div>
             <h1>{this.state.msg}</h1>
+            {/*<button onClick={this.changeMsg.bind(this)}>Visit</button>*/}
             <button onClick={()=>this.changeMsg()}>Visit</button>
             </div>
             
